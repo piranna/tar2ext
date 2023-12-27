@@ -1,0 +1,86 @@
+repo_name: piranna/tar2ext
+report_id: cc10d67f8f858c4a85049c77a8a3e0c7
+version: 0.1
+repo_type: Public
+timestamp: '2023-12-27T06:18:09+00:00'
+requested_by: piranna
+provider: github
+branch: master
+detected_tools_count: 6
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: Repo Metadata
+- name: ServiceStack
+  description: 'A configuration free, code-first, light-weight framework '
+  website_url: https://servicestack.net/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2773/JuTVEkWX_400x400.jpg
+  detection_source: package.json
+  last_updated_by: Jesús Leganés-Combarro 'piranna
+  last_updated_on: 2016-11-01 11:53:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Jesús Leganés-Combarro 'piranna
+  last_updated_on: 2016-11-01 11:53:45.000000000 Z
+- name: tar-fs
+  description: Filesystem bindings for tar-stream
+  package_url: https://www.npmjs.com/tar-fs
+  version: 1.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17431/default_f52a9ea80d1a46080182faf142d844b81ca11aa6.png
+  detection_source_url: https://github.com/piranna/tar2ext/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jesús Leganés-Combarro 'piranna
+  last_updated_on: 2016-11-01 11:53:45.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in tar-fs
+    cve_id: CVE-2018-20835
+    cve_url: https://github.com/advisories/GHSA-x2mc-8fgj-3wmr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 1.16.2
+- name: tmp
+  description: Temporary file and directory creator
+  package_url: https://www.npmjs.com/tmp
+  version: 0.0.29
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16251/default_380ae3d73e22c7ca1f42b96479bcd0095dabc0d3.png
+  detection_source_url: https://github.com/piranna/tar2ext/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jesús Leganés-Combarro 'piranna
+  last_updated_on: 2016-11-01 11:53:45.000000000 Z
